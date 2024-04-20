@@ -1,0 +1,24 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "сторонние библиотеки для 2 дз",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pomidoroff-Komrad/games-rating.git"
+  },
+  "author": "Zahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pomidoroff-Komrad/games-rating/issues"
+  },
+  "homepage": "https://github.com/Pomidoroff-Komrad/games-rating#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
