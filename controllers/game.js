@@ -1,5 +1,5 @@
 const { getRandomGame } = require("../appModules/api");
-const fs = require("fs");
+const fs = require("fs").promises;
 const config = require("../appModules/rating/config");
 
 async function gameRouteController(res) {
