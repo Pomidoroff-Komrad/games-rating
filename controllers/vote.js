@@ -2,8 +2,8 @@ const fs = require("fs").promises;
 const httpUtils = require("../appModules/http-utils");
 const { config, createRating, updateRating } = require("../appModules/rating");
 
-async function voteRouteController(req, res) {
-  if (!req.method !== "POST") {
+async function voteRouteController(res, req) {
+  if (req.method !== "POST") {
     res.statusCode = 404;
     res.end("Not Found");
   } else {
